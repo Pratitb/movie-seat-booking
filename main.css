@@ -69,7 +69,7 @@ body{
 .seat.occupied:hover{
     background-color: var(--red);
 }
-.seat:not(.occupied):hover{
+.row .seat:not(.occupied):hover{
     background-color: var(--green);
     cursor: pointer;
     transform: scale(1.3);
